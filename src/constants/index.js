@@ -124,147 +124,68 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
-    iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'July 2020 - Present',
+    title: 'SugarCRM, PHP Developer',
+    company_name: 'Nablasol Digital Pvt Ltd',
+    icon: 'src/assets/company/nablasol.png', // Replace with actual icon path
+    iconBg: '#eaeaec',
+    description: 'Full Stack Development, Requirement Gathering, Analysis, Design, Development, Integration, Support.',
+    responsibilities: [
+      'Developed and maintained SugarCRM solutions for campaign management.',
+      'Managed integration and development of modules such as Lead Management, Billing, and Marketing.',
+      'Coordinated with the team for requirement gathering and client support.'
+    ],
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
-    iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'March 2016 - February 2020',
+    title: 'Web Developer',
+    company_name: 'AvikTechnosoft Pvt Ltd',
+    icon: 'src/assets/company/aviktechnosoft.png', // Replace with actual icon path
+    iconBg: '#eaeaec',
+    description: 'Full Stack Development, Requirement Gathering, Analysis, Design, Development',
+    responsibilities: [
+      'Developed web applications and managed social media API integrations.',
+      'Worked on projects like ESP and Campaign Pulse.',
+      'Performed design, development, and integration of solutions in PHP, MySQL, and other technologies.'
+    ],
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
-    iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
-  },
-  {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
-    iconBg: '#333333',
-    date: 'Sep 2022 - Present',
-  },
+    date: 'April 2012 - January 2016',
+    title: 'IT Consultant and Trainer',
+    company_name: 'IT ART Technologies',
+    icon: 'src/assets/company/itart.png', // Replace with actual icon path
+    iconBg: '#eaeaec',
+    description: 'Provided consulting and training on Microsoft Technologies, prepared training materials, delivered training sessions.',
+  }
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    name: 'CtaxCRM',
+    description:
+      'Ctax is a SugarCRM project focused on Campaign Management, including modules for Lead Management, Billing, and Marketing. Developed for Ctax, USA.',
+      image: 'src/assets/projects/CtaxCRM.PNG',
+    repo: 'https://www.ctaxcrm.com',
+    demo: 'https://www.ctaxcrm.com',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'ESP',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+      'ESP provides a generic ERP solution for event organization, supporting universities, corporate events, and seminars. Clients include Detroit Athletic Club and Harvard Medical University.',
+      image: 'src/assets/projects/Esp.PNG',
+    repo: 'https://www.esp.systems/',
+    demo: 'https://www.esp.systems/',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
-  },
-  {
-    id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
-  },
-  {
-    id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'Campaign Pulse',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+      'Campaign Pulse is a project developed with Laravel and React.js, offering solutions for managing marketing campaigns and tracking results.',
+      image: 'src/assets/projects/Cpulse.PNG',
+    repo: 'https://github.com/CampaignPulse', // Replace with actual repo if available
+    demo: 'https://campaignpulse.example.com', // Replace with actual demo link if available
   },
 ];
 

@@ -27,12 +27,12 @@ const ProjectCard = ({
       onClick={() => handleClick(id)}>
       <div
         className="absolute top-0 left-0 z-10 bg-jetLight 
-      h-full w-full opacity-[0.5] rounded-[24px]"></div>
+      h-full w-full opacity-[0.4] "></div>
 
       <img
         src={image}
         alt={name}
-        className="absolute w-full h-full object-cover rounded-[24px]"
+        className="absolute top-0 left-0 w-[240px] h-[100px]" 
       />
 
       {active !== id ? (
@@ -111,7 +111,7 @@ const ProjectCard = ({
 };
 
 const Projects = () => {
-  const [active, setActive] = useState('project-2');
+  const [active, setActive] = useState('project-1');
 
   return (
     <div className="-mt-[6rem]">

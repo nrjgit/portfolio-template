@@ -1,4 +1,4 @@
-export const textVariant = (delay) => {
+export const textVariant = (delay = 0, easing = 'spring', yOffset = -50) => {
   return {
     hidden: {
       y: -50,
@@ -16,7 +16,7 @@ export const textVariant = (delay) => {
   };
 };
 
-export const fadeIn = (direction, type, delay, duration) => {
+export const fadeIn = (direction = 'up', type = 'spring', delay = 0, duration = 0.75) => {
   return {
     hidden: {
       x: direction === 'left' ? 100 : direction === 'right' ? -100 : 0,
